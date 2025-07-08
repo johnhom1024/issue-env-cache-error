@@ -2,7 +2,10 @@
   "name": "@issue-env-cache-error/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "NAME=a pnpm nx run app:build",
+    "build:b": "NAME=b pnpm nx run app:build"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
