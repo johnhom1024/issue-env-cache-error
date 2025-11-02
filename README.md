@@ -35,5 +35,5 @@ NAME=a pnpm nx run app:build (Third run, CACHED, Build File Change! Output a)
 6. Run pnpm build:b (Wrong)
 
 ```
-NAME=a pnpm nx run app:build (Third run, CACHED, But File No Change! Output a, It should Output b)
+NAME=b pnpm nx run app:build (Third run, CACHED, But File No Change! Output a, It should Output b)
 ```
